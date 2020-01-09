@@ -1,15 +1,15 @@
-# Bookinfo example on Istio
-This example deploys a sample application composed of four separate microservices
-used to demonstrate various Istio features. The application displays information
-about a book, similar to a single catalog entry of an online book store. Displayed
-on the page is a description of the book, book details (ISBN, number of pages, and
-so on), and a few book reviews.
-For more detail informations, please refer to corresponding website:
-[Bookinfo](https://istio.io/docs/examples/bookinfo/).
-In this document, it will show you how to deploy it.
+# Service Mesh on IEC
+The Service Mesh, the most popular word in Cloud Native technology area, is used to
+describe the network of Micro-Services. It makes up such applications and the
+interactions between them.
+Now, the Istio--the hottest Service-Mesh software--has been supported by IEC. In
+this document, we will introduce how to deploy it. For detail information, please
+refer to [Istio](https://istio.io).
 
-## Deploy Bookinfo example
-Firstly, get to know the k8s master IP address.
-Secondly, run the install.sh scripts with master IP address.
+## Deploy Service-Mesh
 
-  ./install/install.sh $master_ip
+  ./install_Istio.sh
+
+## Verify Service-Mesh
+Please refer to README.md in iec/src/use_case/service_mesh/bookinfo folder for
+getting more information.
