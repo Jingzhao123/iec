@@ -4,8 +4,8 @@ used to demonstrate various Istio features. The application displays information
 about a book, similar to a single catalog entry of an online book store. Displayed
 on the page is a description of the book, book details (ISBN, number of pages, and
 so on), and a few book reviews.
-For more detail informations, please refer to following website:
-[Revel](https://istio.io/docs/examples/bookinfo/)
+For more detail informations, please refer to corresponding website:
+[Bookinfo](https://istio.io/docs/examples/bookinfo/).
 In this document, it will show you how to deploy it.
 
 ## Deploy Bookinfo example
